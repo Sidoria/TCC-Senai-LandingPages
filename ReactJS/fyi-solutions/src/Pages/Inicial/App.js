@@ -52,8 +52,9 @@ function Inicial() {
         </div>
         <div class="cursos-main">
           <div class="cursos-content">
-            <h1>Principais Cursos :</h1>
+            <h1>Cursos:</h1>
             <div class="cursos-container">
+              <Card />
               <Card />
             </div>
           </div>

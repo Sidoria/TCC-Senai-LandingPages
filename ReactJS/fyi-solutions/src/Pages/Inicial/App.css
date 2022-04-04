@@ -70,26 +70,24 @@ p{
 }
 
 .cursos-content{
-  width: 80%;
-  height: 430px;
-  justify-content: center;
-  align-items: center;
+  width: 90%;
+  height: 90%;
+  display: flex;
+  align-items: flex-start;
 }
 
 .cursos-content h1{
   font-family: 'Poppins';
   font-weight: 600;
-  display: swap;
 }
 
 .cursos-container{
   margin-top: 70px;
-  width: 80%;
-  height: 330px;
+  width: 95%;
+  height: 100%;
   display: flex;
-  justify-content: center;
-  align-items: stretch;
-  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
 }
 
 .empresas-carrosel{
