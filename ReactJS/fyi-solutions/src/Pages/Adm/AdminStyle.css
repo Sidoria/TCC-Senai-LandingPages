@@ -83,7 +83,7 @@ hr{
 #right-box{
     width: 75%;
     height: 100vh;
-    display: flex;
+    display: none;
     justify-content: center;
     align-items: center;
 }
@@ -99,6 +99,8 @@ hr{
     flex-direction: column;
     color: white;
 }
+
+
 
 .title-container{
     width: 100%;

@@ -6,7 +6,7 @@ import LinkdIn from '../../Images/socials/LinkedIn.png'
 import Facebook from '../../Images/socials/Facebook.png'
 import Instagram from '../../Images/socials/Instagram.png'
 import Youtube from '../../Images/socials/Youtube.png'
-import '../../Pages/Inicial/App.css'
+import './Footer.css'
 
 function Footer() {
     return (

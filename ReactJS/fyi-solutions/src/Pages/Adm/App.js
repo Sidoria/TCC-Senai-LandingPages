@@ -16,11 +16,11 @@ function HideContent() {
 
     var x = document.getElementById("right-box")
 
-    if (x.style.display === "flex") {
+    if (x.style.display === "none") {
         x.style.transition = "2s"
-        x.style.display = "none";
-    } else {
         x.style.display = "flex";
+    } else {
+        x.style.display = "none";
     }
 
 }
@@ -51,7 +51,7 @@ function Admin() {
                     <div class="open-content">
                             
                             <h5>Gerenciar</h5>
-                            <img src={Minus} id="minus-icon" onClick={HideContent} />
+                            <img src={Plus} id="plus-icon" onClick={HideContent} />
                             
                         </div>
                     <hr />
@@ -85,6 +85,7 @@ function Admin() {
                         </div>
                     </div>
                 </div>
+                
             </main>
         </div>
        

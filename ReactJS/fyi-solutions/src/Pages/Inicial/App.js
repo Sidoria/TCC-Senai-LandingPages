@@ -11,12 +11,13 @@ import Ipetec from '../../Images/empressas/ipetec.svg'
 import './App.css';
 import Header from '../../Components/Header/Header';
 import Footer from '../../Components/Footer/Footer';
+import Card from '../../Components/Cursos-Card/Card';
 
 function Inicial() {
   return (
     <div>
      <Header/>
-      <main>
+      <div>
         <div class="image-content">
           <img src={banner} class="banner" />
         </div>
@@ -53,14 +54,12 @@ function Inicial() {
           <div class="cursos-content">
             <h1>Principais Cursos :</h1>
             <div class="cursos-container">
-              <div class="curso-card">
-
-              </div>
+              <Card />
             </div>
           </div>
         </div>
 
-      </main>
+      </div>
       <Footer/>
     </div>
   );
